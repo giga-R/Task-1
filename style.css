@@ -1,7 +1,5 @@
-/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +25,6 @@ a {
   margin: auto;
 }
 
-/* Header */
 header {
   background-color: #1f1f1f;
   padding: 1rem 0;
@@ -73,7 +70,6 @@ header .container {
   width: 100%;
 }
 
-/* Hero Section */
 .hero {
   background: linear-gradient(to right, #00bfa6, #00796b);
   color: #fff;
@@ -107,7 +103,6 @@ header .container {
   background-color: #e0f2f1;
 }
 
-/* Footer */
 footer {
   background-color: #1f1f1f;
   color: #ccc;
@@ -129,7 +124,6 @@ footer .social-links a:hover {
   text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   header .container {
     flex-direction: column;
